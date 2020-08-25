@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 90%;
+}
+td:first-of-type {
+  width: 150px;
+}
+
+button {
+  margin: 0.5em 0;
+}
