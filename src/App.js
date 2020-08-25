@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h3>Cancelling fetch requests in redux thunks</h3>
+      <h3>Redux Thunk fetch request cancelling</h3>
       <Status />
       <div>
         <button onClick={toggleMount}>

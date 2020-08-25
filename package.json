@@ -1,5 +1,5 @@
 {
-  "name": "cancelling-requests-with-useeffect-cleanup",
+  "name": "redux-thunk-fetch-request-cancelling",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
