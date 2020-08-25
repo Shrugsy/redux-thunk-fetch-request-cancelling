@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 export function removeFromArrayMutably(item, arr) {
+  if (item === undefined) throw new Error("function removeFromArrayMutably expected an item but received undefined");
   const foundIndex = arr.indexOf(item);
   if (foundIndex === -1) return arr;
   arr.splice(foundIndex, 1);

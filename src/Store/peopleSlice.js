@@ -73,8 +73,8 @@ export const peopleSlice = createSlice({
       draftState.isAborted = false;
     },
     [fetchRejected]: (draftState, { payload }) => {
-      const { requestID, error } = payload;
-      removeFromArrayMutably(requestID, draftState.requestIDs);
+      const { id, error } = payload;
+      removeFromArrayMutably(id, draftState.requestIDs);
       draftState.isLoading = draftState.requestIDs.length > 0;
       draftState.error = error;
       draftState.isAborted = false;

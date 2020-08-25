@@ -32,7 +32,7 @@ export default function PersonRequester() {
   }
 
   return (
-    <div style={{ border: "1px solid black" }}>
+    <div style={{ border: "1px solid black", margin: "0 auto", maxWidth: "500px" }}>
       <button onClick={handleFetchPerson}>
         Get a new person (spam this button!)
       </button>

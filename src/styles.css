@@ -11,6 +11,7 @@ td {
 
 table {
   width: 90%;
+  max-width: 500px;
 }
 td:first-of-type {
   width: 150px;
